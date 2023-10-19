@@ -1,0 +1,131 @@
+h1,h2,h3,p,body,div{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, helvatica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/ejercicio2/images/art-background4.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+}
+
+h1{
+    font-family: 'Six Caps', sans-serif; ;
+    font-size: 50px;
+    padding-top: 12.960;
+    padding-left: 12.960;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.7em;
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+} 
+.encabezado{
+    background-color: white; 
+    background-size: cover;
+    margin-left: 10em;
+    height: 150px; /* Altura de 200 píxeles */
+    max-width: 400px;
+    display: flex;
+    flex-direction: column; /* Coloca los elementos internos en columna */
+    justify-content: center; /* Centra verticalmente los elementos internos */
+}
+
+.encabezado h1{
+    font-size: 70px;
+    font-family: 'Six Caps', sans-serif;;
+    font-variant-caps: small-caps;
+    font-weight: 700;
+    padding-left: 0.5em;
+    text-align: left;
+}
+
+.encabezado h2{
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 1.2em;
+    text-align: left;
+}
+
+/* Estilos generales para todas las formas rectangulares */
+.rectangulo {
+    opacity: 0.7; /* Establece la opacidad al 70% */
+    border: 1px solid transparent; /* Agrega un borde transparente de 1 píxel */
+}
+
+.articulo{
+    /*opacity: 0.7; /* Establece la opacidad al 70% */
+    border: 1px solid transparent; /* Agrega un borde transparente de 1 píxel */
+}
+
+.construccion{
+    background-color: rgba(255, 255, 255,0.6);
+    background-size: cover;
+    margin-left: 7em;
+    margin-top: 3.5em;
+    text-align: left;
+    padding-top: 0.4em;
+    padding-left: 0.4em;
+    height:50px;
+    max-width: 525px;
+    font-size: 23px;
+    font-family: Calibri;
+    font-weight: 600;
+}
+
+.sitio{
+    background-color: rgb(255, 255, 255, 0.40);
+    background-size: cover;
+    margin-left: 7em;
+    padding-left: 0.1em;
+    font-weight: 700;        
+    display: flex;
+    flex-direction: column; /* Coloca los elementos internos en columna */
+    justify-content: center; /* Centra verticalmente los elementos internos */
+    
+
+    text-align: left;
+    padding-top: 0.5em;
+    padding-left: 0.4em;
+    height:175px;
+    max-width: 525px;
+    font-size: 23px;
+}
+.años{
+    background-color: rgba(57, 61, 66, 0.7);
+    margin-top: 1em;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 0.55em;
+    padding-left: 0.55em;
+    justify-content: center;
+    text-align: left;
+    height: 50px; 
+    width: 300px; 
+}
+
+.piepag{
+    background-color: white;
+    background-size: cover;
+    font-size: 15px;
+    margin-left: 7em;
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 1em;
+    height:75px;
+    max-width: 525px;
+    font-size: 23px;
+
+}
